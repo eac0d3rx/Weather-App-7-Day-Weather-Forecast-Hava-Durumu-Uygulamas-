@@ -9,7 +9,7 @@ const wrapper = document.querySelector(".wrapper"),
   localTimeElement = weatherPart.querySelector(".local-time"),
   forecastList = weatherPart.querySelector(".forecast-list");
 
-let apiKey = "8453a6d2900d4e70ae984018241906"; // API anahtarınızı buraya yazınız
+let apiKey = "YOUR_API_KEY"; // API anahtarınızı buraya yazınız
 let api;
 
 inputField.addEventListener("keyup", (e) => {
